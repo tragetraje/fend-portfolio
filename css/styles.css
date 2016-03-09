@@ -1,0 +1,100 @@
+/* * {border: 1px solid red !important;} */
+
+body, html {
+  width: 100%;
+}
+
+body {
+        font-family: 'Open Sans', sans-serif;
+        color: #556469;
+        font-weight: 300;
+}
+
+.intro-header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #1f8fc1;
+    background: url("../images/phone-large.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.topnav {
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: 600;
+  width: 180px;
+}
+
+.topnav-brand {
+  margin-top: 9px;
+  margin-left: 10px;
+}
+
+.topnav-text {
+  margin-top: 15px;
+  margin-left: 5px;
+}
+
+.topnav-right {
+  font-weight: 600
+}
+
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 5em;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
